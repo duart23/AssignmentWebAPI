@@ -1,0 +1,85 @@
+﻿@page "/CreatePost"
+@using Domain
+@using HttpClients.ClientInterfaces
+@using Domain
+@using Domain.DTOs
+@inject IUserService userService
+@inject IPostService postService
+@inject NavigationManager navMgr
+<h3>CreatePost</h3>
+
+@code {
+    private int? selectedUserId;
+    private string postTitle = "";
+    private string postContent = "";
+
+    private string msg = "";
+
+  /*  protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            users = await userService.GetUsers();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    } */
+
+    private async Task Create()
+    {
+      /*  msg = "";
+        if (selectedUserId == null)
+        {
+            msg = "You must select an assignee!";
+            return;
+        } */
+        if (string.IsNullOrEmpty(postTitle))
+        {
+            msg = "Title cannot be empty!";
+            return;
+        }
+        
+        if (string.IsNullOrEmpty(postContent))
+        {
+            msg = "Content cannot be empty!";
+            return;
+        }
+        
+
+        try
+        {
+            PostCreationDTO dto = new((int)selectedUserId, postTitle,postContent);
+            await postService.CreateAsync(dto);
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
+
+<div class="card">
+        <h3>Create Todo</h3>
+        <div class="form-group field">
+            <label>Title:</label>
+            <input type="text" @bind="postTitle"/>
+        </div>
+        <div class="form-group field">
+            <label>Content:</label>
+            <input type="text" @bind="postContent"/>
+        </div>
+        
+        <div class="button-row">
+            @if (!string.IsNullOrEmpty(msg))
+            {
+                <label style="color: red">@msg</label>
+            }
+            <button @onclick="Create" class="acceptbtn">Create</button>
+        </div>
+</div>

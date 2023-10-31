@@ -1,0 +1,59 @@
+﻿@page "/HomePage"
+@using Domain
+@using HttpClients.ClientInterfaces
+@inject IPostService postService
+<PageTitle>Home</PageTitle>
+<h1>Feed</h1>
+
+@code
+{
+    private IEnumerable<Post>? POSTS;
+    private string msg = "";
+
+    private async Task LoadTodos()
+    {
+        try
+        {
+            POSTS = await postService.GetAsync(null, null, null, null);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
+
+@if (POSTS == null)
+{
+}
+else if (!POSTS.Any())
+{
+    <p>No Posts to display</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Username</th>
+            <th>Title</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in POSTS)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Owner.UserName</td>
+                <td>@item.Title</td>
+                <td>@item.Content</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@if (!string.IsNullOrEmpty(msg))
+{
+    <label style="color: red">@msg</label>
+}
