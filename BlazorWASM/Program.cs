@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using BlazorWASM;
+using Domain;
 using HttpClients.ClientInterfaces;
 using HttpClients.Implementations;
 
@@ -10,14 +11,18 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-await builder.Build().RunAsync();
-
 builder.Services.AddScoped(
     sp => 
         new HttpClient { 
             BaseAddress = new Uri("https://localhost:5130") 
         }
 );
+builder.Services.AddSingleton<PostHttpClient>();
+builder.Services.AddSingleton<UserHttpClient>();
 
 builder.Services.AddScoped<IUserService, UserHttpClient>();
 builder.Services.AddScoped<IPostService, PostHttpClient>();
+
+
+
+await builder.Build().RunAsync();

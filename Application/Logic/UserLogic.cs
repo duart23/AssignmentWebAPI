@@ -22,7 +22,8 @@ public class UserLogic : IUserLogic
         ValidateData(dto);
         User toCreate = new User
         {
-            UserName = dto.UserName
+            UserName = dto.UserName,
+            password = dto.Password
         };
     
         User created = await userDao.CreateAsync(toCreate);
@@ -32,12 +33,21 @@ public class UserLogic : IUserLogic
     private static void ValidateData(UserCreationDTO dto)
     {
         string userName = dto.UserName;
+        string password = dto.Password;
 
         if (userName.Length < 3)
             throw new Exception("Username must be at least 3 characters!");
 
         if (userName.Length > 15)
             throw new Exception("Username must be less than 16 characters!");
+        
+        if (password.Length < 3)
+            throw new Exception("Password must be at least 3 characters!");
+
+        if (password.Length > 15)
+            throw new Exception("Password must be less than 16 characters!");
+        
+        
     }
 }
 
