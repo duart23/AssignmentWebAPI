@@ -620,12 +620,10 @@ C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Deb
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\BlazorWASM.AssemblyInfo.cs
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\BlazorWASM.csproj.CoreCompileInputs.cache
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\BlazorWASM.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\+u+dZPw2.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\MIYd8N8Z.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\kzZJJjW6.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\z6JLT88t.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\ItfZr5cx.gz
-C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\XoqbKFXO.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\xZx9V2Dd.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\gauAgdvj.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\+tQ+7o55.gz
@@ -843,3 +841,5 @@ C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Deb
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\BlazorWASM.pdb
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\ref\BlazorWASM.dll
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\scopedcss\Pages\UIComponents\Modal.razor.rz.scp.css
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\hLE+fel3.gz
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\j+D035To.gz

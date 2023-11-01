@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "JnAv2n+3LghbHhY09LO75PqyVbfD00oM+kUeZgWVEF0z5FJrbKQIb6hMHvCP6h3NduZ3axaAh2UYOAqasnu9Fw==",
+  "dgSpecHash": "YUsB1ktTBhh5yzktN+3kKw4nbjrK9L7bd8nQJ09Elg8Ngf/etalTdCoxNTOXzF88JjyFqFoNHBZinD1l7AC/ZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\HttpClients\\HttpClients.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.13\\microsoft.aspnetcore.metadata.7.0.13.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

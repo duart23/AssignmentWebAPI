@@ -9,3 +9,4 @@ C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\Domain\obj\Debug\n
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
