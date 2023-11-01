@@ -23,7 +23,7 @@ public class PostsController : ControllerBase
             try
             {
                 Post created = await postLogic.CreateAsync(dto);
-                return Created($"/posts/{created.Id}", created);
+                return Created($"/post/{created.Title}", created);
             }
             catch (Exception e)
             {
@@ -33,14 +33,15 @@ public class PostsController : ControllerBase
         }
         
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? userName, [FromQuery] int? userId,
-            [FromQuery] bool? completedStatus, [FromQuery] string? titleContains)
+        public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? userName, [FromQuery] string? title, 
+            [FromQuery] string? content)
+            
         {
             try
             {
-                SearchPostParameteresDTO parameters = new(userName, titleContains, titleContains);
-                var todos = await postLogic.GetAsync(parameters);
-                return Ok(todos);
+                SearchPostParameteresDTO parameters = new(userName, title, content);
+                var posts = await postLogic.GetAsync(parameters);
+                return Ok(posts);
             }
             catch (Exception e)
             {

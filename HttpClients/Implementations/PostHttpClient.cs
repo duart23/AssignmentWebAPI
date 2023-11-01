@@ -25,7 +25,7 @@ public class PostHttpClient : IPostService
         }
     }
 
-    public async Task<ICollection<Post>> GetAsync(int?id, string userName, string titleContains, string contentContains)
+    public async Task<ICollection<Post>> GetAsync(int?id, string? userName, string? titleContains, string? contentContains)
     {
         HttpResponseMessage response = await client.GetAsync("/posts");
         string content = await response.Content.ReadAsStringAsync();

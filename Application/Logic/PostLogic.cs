@@ -21,7 +21,7 @@ public class PostLogic : IPostLogic
         User? user = await userDao.GetByIdAsync(dto.OwnerId);
         if (user == null)
         {
-            throw new Exception($"User with id {dto.OwnerId} was not found.");
+            throw new Exception($"User {dto.OwnerId} was not found.");
         }
 
         ValidateTodo(dto);

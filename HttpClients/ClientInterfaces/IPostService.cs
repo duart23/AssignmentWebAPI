@@ -9,9 +9,9 @@ public interface IPostService
     
     Task<ICollection<Post>> GetAsync(
         int? id,
-        string userName,
-        string titleContains,
-        string contentContains
+        string? userName,
+        string? titleContains,
+        string? contentContains
         
     );
 }

@@ -20,6 +20,7 @@ builder.Services.AddScoped<IUserLogic, UserLogic>();
 builder.Services.AddScoped<IPostDAO, PostFileDAO>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
 var app = builder.Build();
+
 app.UseCors(x => x
     .AllowAnyMethod()
     .AllowAnyHeader()

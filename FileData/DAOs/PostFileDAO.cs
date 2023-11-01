@@ -52,10 +52,10 @@ public class PostFileDAO : IPostDAO
                 t.Title.Contains(searchParams.TitleContains, StringComparison.OrdinalIgnoreCase));
         }
         
-        if (!string.IsNullOrEmpty(searchParams.contentContains))
+        if (!string.IsNullOrEmpty(searchParams.ContentContains))
         {
             result = result.Where(t =>
-                t.Content.Contains(searchParams.contentContains, StringComparison.OrdinalIgnoreCase));
+                t.Content.Contains(searchParams.ContentContains, StringComparison.OrdinalIgnoreCase));
         }
         
         return Task.FromResult(result);
