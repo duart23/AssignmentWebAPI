@@ -5,33 +5,46 @@
 @inject IUserService userService
 @inject IPostService postService
 @inject NavigationManager navMgr
+@using System.Security.Claims
 <h3>CreatePost</h3>
 
+@if (isLoggedIn)
+{
+}
+else
+{
+    <p>You are not logged in.</p>
+}
+
 @code {
-    private int? selectedUserId;
+    
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+    
+    private string? selectedUserName;
     private string postTitle = "";
     private string postContent = "";
+    private bool isLoggedIn;
+    private IEnumerable<Claim>? userClaims;
 
     private string msg = "";
 
-  /*  protected override async Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        msg = "";
-        try
-        {
-            users = await userService.GetUsers();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            msg = e.Message;
-        }
-    } */
+        AuthenticationState authState = await AuthState;
+        ClaimsPrincipal user = authState.User;
+        isLoggedIn = user.Identity != null;
+        
+        if (!isLoggedIn) return;
+        
+        userClaims = user.Claims;
+        selectedUserName = user.Identity!.Name;
+    }
 
     private async Task Create()
     {
         msg = "";
-        if (selectedUserId == null)
+        if (selectedUserName == null)
         {
             msg = "You must be signed in!";
             return;
@@ -51,7 +64,7 @@
 
         try
         {
-            PostCreationDTO dto = new((int)selectedUserId, postTitle,postContent);
+            PostCreationDTO dto = new(selectedUserName, postTitle,postContent);
             await postService.CreateAsync(dto);
             showModal = true;
         }

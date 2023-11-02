@@ -620,7 +620,6 @@ C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Deb
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\BlazorWASM.AssemblyInfo.cs
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\BlazorWASM.csproj.CoreCompileInputs.cache
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\BlazorWASM.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\MIYd8N8Z.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\kzZJJjW6.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\z6JLT88t.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\ItfZr5cx.gz
@@ -843,3 +842,11 @@ C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Deb
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\scopedcss\Pages\UIComponents\Modal.razor.rz.scp.css
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\hLE+fel3.gz
 C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\j+D035To.gz
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\R4Fckyta.gz
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\build-gz\ojDds6wi.gz
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\scopedcss\Pages\Login.razor.rz.scp.css
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\scopedcss\Pages\LoginButtons.razor.rz.scp.css
+C:\Users\duart\OneDrive\Ambiente de Trabalho\AssignmentWebAPI\BlazorWASM\obj\Debug\net7.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css

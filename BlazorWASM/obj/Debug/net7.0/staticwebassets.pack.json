@@ -69,6 +69,14 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
+      "Id": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\img\\Login.png",
+      "PackagePath": "staticwebassets\\img\\Login.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\img\\Logout.png",
+      "PackagePath": "staticwebassets\\img\\Logout.png"
+    },
+    {
       "Id": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

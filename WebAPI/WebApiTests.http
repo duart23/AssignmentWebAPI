@@ -1,0 +1,9 @@
+﻿POST https://localhost:7282/auth/login
+Content-Type: application/json
+
+{ "Username" : "duarte", "Password" : "password" }
+
+###
+
+GET https://localhost:7282/test/mustBeVia
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2M2E2YmVkOC00YjBkLTQxMDAtOTVjMy04YzgwZDAwMTczNWUiLCJpYXQiOiIwMS8xMS8yMDIzIDIyOjUxOjE3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6ImR1YXJ0ZSIsImV4cCI6MTY5ODg4MjY3NywiaXNzIjoiSldUQXV0aGVudGljYXRpb25TZXJ2ZXIiLCJhdWQiOiJKV1RTZXJ2aWNlQmxhem9yV2FzbUNsaWVudCJ9.ndkGkQ0vFxV1szAfCjmHb6olI8eWPIr9jOcV2QP9Rvv4LhekdSau0jbpI6szvHLGYh1gI9AF6YDSPGQPZ_I5MQ 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fCZLHBaUDgOZyMI5tEMuHskebD/8yUPH/rrm/yPevAs=",
+  "Hash": "iK+GNTuNSMVZg5/O4hSb928bDmZAJudHqScjOhoxdco=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -289,6 +289,23 @@
       "OriginalItemSpec": "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
+      "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.13\\lib\\net7.0\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -303,7 +320,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -5525,23 +5542,6 @@
       "OriginalItemSpec": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Data.Common.dll"
     },
     {
-      "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\obj\\Debug\\net7.0\\build-gz\\MIYd8N8Z.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\obj\\Debug\\net7.0\\build-gz\\MLZz+LIE.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -5676,6 +5676,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.Extensions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\obj\\Debug\\net7.0\\build-gz\\ojDds6wi.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\obj\\Debug\\net7.0\\build-gz\\ojyrYq1n.gz",
@@ -5999,6 +6016,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.dll"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\obj\\Debug\\net7.0\\build-gz\\R4Fckyta.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\obj\\Debug\\net7.0\\build-gz\\R5mK5p9b.gz",
@@ -7274,6 +7308,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\img\\Login.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Login.png"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\img\\Logout.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logout.png"
     },
     {
       "Identity": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\wwwroot\\index.html",

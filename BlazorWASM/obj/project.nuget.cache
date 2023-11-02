@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Wn5qEenC1qW/FfG05qntUUqHwi7TGaleVfRZj82qy+bQzQ7P45arSkF6ocYpeoEvQbx79m/MLDij/QbzWLXInw==",
+  "dgSpecHash": "pN+eZwb/I1HeJ7c41iXzTaEHwqQl/3Z84iz2IedXXzPPSG7dHfaBnBq5i59wCP9O0Pmdkh5AYaN4blVCLa6YOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\duart\\OneDrive\\Ambiente de Trabalho\\AssignmentWebAPI\\BlazorWASM\\BlazorWASM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
-    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
-    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.10\\microsoft.aspnetcore.components.analyzers.7.0.10.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\microsoft.aspnetcore.components.7.0.13.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.13\\microsoft.aspnetcore.components.analyzers.7.0.13.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.13\\microsoft.aspnetcore.components.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.10\\microsoft.aspnetcore.components.forms.7.0.10.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.10\\microsoft.aspnetcore.components.web.7.0.10.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.10\\microsoft.aspnetcore.components.webassembly.7.0.10.nupkg.sha512",

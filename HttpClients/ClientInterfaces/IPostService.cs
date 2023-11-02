@@ -14,4 +14,7 @@ public interface IPostService
         string? contentContains
         
     );
+    Task<PostBasicDTO> GetPostByIdAsync(int id);
+    
+    
 }

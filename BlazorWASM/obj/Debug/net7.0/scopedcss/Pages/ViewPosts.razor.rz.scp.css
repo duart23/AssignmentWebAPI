@@ -1,0 +1,28 @@
+.post-list[b-lj17aabdv5] {
+    list-style: none;
+    padding: 0;
+}
+
+.post-item[b-lj17aabdv5] {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.post-title[b-lj17aabdv5] {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.post-content[b-lj17aabdv5] {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.post-username[b-lj17aabdv5] {
+    font-size: 14px;
+    color: #666;
+}

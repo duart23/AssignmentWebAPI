@@ -31,6 +31,21 @@ public class PostsController : ControllerBase
                 return StatusCode(500, e.Message);
             }
         }
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<PostBasicDTO>> GetById([FromRoute] int id)
+        {
+            try
+            {
+                PostBasicDTO result = await postLogic.GetByIdAsync(id);
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return StatusCode(500, e.Message);
+            }
+        }
+
         
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Post>>> GetAsync([FromQuery] string? userName, [FromQuery] string? title, 

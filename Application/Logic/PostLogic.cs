@@ -18,13 +18,13 @@ public class PostLogic : IPostLogic
     
     public async Task<Post> CreateAsync(PostCreationDTO dto)
     {
-        User? user = await userDao.GetByIdAsync(dto.OwnerId);
+        User? user = await userDao.GetByUsernameAsync(dto.UserName);
         if (user == null)
         {
-            throw new Exception($"User {dto.OwnerId} was not found.");
+            throw new Exception($"User {dto.UserName} was not found.");
         }
 
-        ValidateTodo(dto);
+        ValidatePost(dto);
         Post post = new Post(user, dto.Title, dto.Content);
         Post created = await postDao.CreateAsync(post);
         return created;
@@ -35,7 +35,18 @@ public class PostLogic : IPostLogic
         return postDao.GetAsync(searchParameters);
     }
 
-    private void ValidateTodo(PostCreationDTO dto)
+    public async Task<PostBasicDTO> GetByIdAsync(int id)
+    {
+        Post? post = await postDao.GetByIdAsync(id);
+        if (post == null)
+        {
+            throw new Exception($"Post with id {id} not found");
+        }
+        return new PostBasicDTO(post.Owner.UserName, post.Title, post.Content);
+    }
+    
+
+    private void ValidatePost(PostCreationDTO dto)
     {
         if (string.IsNullOrEmpty(dto.Title)) throw new Exception("Title cannot be empty.");
         if (string.IsNullOrEmpty(dto.Content)) throw new Exception("Content cannot be empty.");
