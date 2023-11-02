@@ -25,10 +25,12 @@
              }
              else
              {
-                 <h3>Title: @post.Title</h3>
-                 <div class="form-group field">
-                     <label>Content:@post.Content</label>
-                 </div>
+                 <div class = "post-item">
+                 <h3>@post.Title</h3>
+                     <div class="form-group field">
+                         <label>@post.Content</label>
+                     </div>
+                     </div>
              }
              @if (!string.IsNullOrEmpty(msg))
              {
@@ -49,7 +51,7 @@
     private PostBasicDTO post = null!;
    
 
-    private async Task LoadPosts()
+    protected override async Task OnInitializedAsync()
     {
         try
         {
@@ -89,12 +91,6 @@
 
 
 
-
-
-<div>
-    <button @onclick="LoadPosts">Load</button>
-</div>
-
 <div class="post-container">
     
     @if (!string.IsNullOrEmpty(msg))
@@ -103,7 +99,6 @@
     }
     @if (posts == null)
     {
-        <span>Loading..</span>
     }
     else if (!posts.Any())
     {
@@ -116,7 +111,6 @@
             {
                 <div class="post-item" @onclick="() => ViewPost(post.Id)">
                     <label class="post-title">@post.Title</label>
-                    <div class="post-content">@post.Content</div>
                     <div class="post-username">Posted by: @post.Owner.UserName</div>
                 </div>
             }
