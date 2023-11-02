@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using System.Threading.Tasks;
 using BlazorWASM.Services;
 using BlazorWASM.Services.Http;
 using Microsoft.AspNetCore.Components.Authorization;

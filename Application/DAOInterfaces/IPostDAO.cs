@@ -1,4 +1,6 @@
-﻿using Domain;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Domain;
 using Domain.DTOs;
 
 namespace Application.DAOInterfaces;
